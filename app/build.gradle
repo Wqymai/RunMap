@@ -26,18 +26,6 @@ android {
         }
     }
     signingConfigs {
-        debug {
-            storeFile file("./key.jks")
-            keyAlias 'key'
-            keyPassword '123456'
-            storePassword '123456'
-        }
-        release {
-            storeFile file("./key.jks")
-            keyAlias 'key'
-            keyPassword '123456'
-            storePassword '123456'
-        }
     }
     buildTypes {
         release {
