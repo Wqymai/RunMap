@@ -5,6 +5,7 @@ import android.os.HandlerThread;
 import android.os.Looper;
 
 /**
+ * 任务处理类
  * Created by chen on 2017/1/28.
  */
 
@@ -35,6 +36,10 @@ public class TaskHanler {
         };
         mTaskHandler.post(action);
 
+    }
+
+    public void sendTaskDelayed(Runnable runnable, int time){
+        mTaskHandler.postDelayed(runnable, time);
     }
 
     public void sendTaskDelayed(final CFAsyncTask task,int time, final Object ...params){

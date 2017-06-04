@@ -12,9 +12,21 @@
     <string name="need_network">应用需要打开网络,以便提供服务</string>
     <string name="string_track_review">轨迹回放</string>
     <string name="string_most_stayed">地点停留</string>
+    <string name="string_distance_to_carlorie">距离转卡路里</string>
     <string name="string_empty_tips">啊哦，还没有数据...</string>
     <string name="string_msg_exit_hint">正在统计数据，是否确认退出?</string>
     <string name="string_msg_app_background">应用已进入后台</string>
     <string name="string_start_point">起点</string>
     <string name="string_end_point">终点</string>
+    <string name="string_share_to_friend">微信好友</string>
+    <string name="string_share_to_circle">朋友圈</string>
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unsupported">不支持错误</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="string_weight_unit">体重(千克)</string>
+    <string name="string_calorie_unit">卡路里(千卡)</string>
+    <string name="hint_input_weight">请输入体重</string>
+    <string name="hint_input_distance">请输入距离</string>
 </resources>
